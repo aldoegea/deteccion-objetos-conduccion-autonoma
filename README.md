@@ -107,7 +107,11 @@ Esto sugiere que el sistema todavía tiene margen de mejora en detección de pea
 
 Además de la detección, el proyecto incorpora tracking de objetos tanto con el algoritmo por defecto de Ultralytics como con un algoritmo customizado, apoyándose en filtros de Kalman y ajustes específicos sobre la configuración del tracker para mejorar la persistencia temporal en escenas de tráfico.
 
-<video width="640" height="480" controls src="https://github.com/aldoegea/deteccion-objetos-conduccion-autonoma/raw/refs/heads/main/tracking-output/Tracking_Ultralytics.mp4" type="video/mp4"></video>
+![Captura del video-tracking](https://github.com/aldoegea/deteccion-objetos-conduccion-autonoma/blob/main/tracking-output/captura_tracking.png?raw=true)
+
+📽️ [Detección de objetos en conducción autónoma (Tracking Ultralytics)](https://www.youtube.com/watch?v=RBj91L7Pr08)
+
+📽️ [Detección de objetos en conducción autónoma (Tracking customizado)](https://www.youtube.com/watch?v=gOjOywrrDAQ)
 
 <br>
 
