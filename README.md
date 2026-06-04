@@ -8,11 +8,16 @@ Proyecto de Computer Vision centrado en el entrenamiento, ajuste y evaluación d
 
 <br>
 
+[![Ver proyecto completo](https://img.shields.io/badge/Ver%20proyecto%20completo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/aldoegea/deteccion-objetos-conduccion-autonoma/blob/main/ReporteCompleto_Detecci%C3%B3nObjetosConducci%C3%B3nAut%C3%B3noma.pdf)
+
+<br>
+
 ## Descripción del proyecto
 
 El objetivo del proyecto es construir un sistema de detección de objetos orientado a conducción autónoma capaz de identificar clases relevantes del tráfico como `car`, `truck`, `bus`, `human`, `motorcycle`, `bicycle` y `trafficcone`. Para ello se parte de un dataset anotado en formato COCO, se realiza un análisis detallado de su calidad, se enriquece con metadatos de visibilidad y posteriormente se convierte a formato YOLO para entrenar distintos modelos.
 
 Además del entrenamiento, el proyecto incluye una fase de **fine-tuning**, evaluación comparativa entre configuraciones, integración de tracking y clustering de errores para entender mejor las limitaciones del sistema y proponer mejoras futuras.
+
 
 <br>
 
@@ -123,3 +128,11 @@ El proyecto demuestra que partir de pesos preentrenados y realizar un fine-tunin
 Tanto es así, que como un punto adicional se aplica clustering sobre **imágenes con errores** utilizando extracción de características, normalización, reducción dimensional con **UMAP** y agrupación con **HDBSCAN**. Esto permite identificar patrones de fallo asociados a escenas nocturnas, alta complejidad urbana o condiciones visuales extremas. Este análisis es imprescindible para considerar el ajuste de los parámetros de entrenamiento o incluso la incorporación de nuevos datasets.
 
 En conjunto, el sistema desarrollado ofrece una base sólida para aplicaciones de percepción en conducción autónoma y deja abiertas líneas de mejora como la incorporación de nuevos datasets, refuerzo de clases difíciles y optimización del tracking en escenarios más complejos.
+
+<br>
+
+## Proyecto completo
+
+[![Ver proyecto completo](https://img.shields.io/badge/Ver%20proyecto%20completo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/aldoegea/deteccion-objetos-conduccion-autonoma/blob/main/ReporteCompleto_Detecci%C3%B3nObjetosConducci%C3%B3nAut%C3%B3noma.pdf)
+
+<br>
