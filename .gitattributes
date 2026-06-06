@@ -1,7 +1,3 @@
-# Forzar a GitHub a contar el archivo Markdown como código Python
-*.md linguist-language=Python
-*.md linguist-detectable=true
-
 # Ocultar por completo el PDF para evitar que interfiera en las estadísticas
 *.pdf linguist-detectable=false
 *.pdf linguist-vendored
